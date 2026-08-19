@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Generated outputs
+python/outputs/
+data/processed/
+
+# Dataset files
+*.xlsx
+*.xls
+*.csv
+data/raw/
+
+# Power BI temporary files
+*.pbix.lock
+
+# Secrets and local configuration
+.env
+.env.*
