@@ -14,8 +14,9 @@ data/processed/
 *.csv
 data/raw/
 
-# Power BI temporary files
-*.pbix.lock
+# Power BI files may embed source data
+powerbi/*.pbix
+powerbi/*.pbix.lock
 
 # Secrets and local configuration
 .env
